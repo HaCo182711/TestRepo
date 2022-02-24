@@ -1,4 +1,5 @@
 import PyGUIgame.PyGUIgame as pgg
+import tristan as trist
 
 win = pgg.init(512,256,"testwindow")
 
@@ -8,3 +9,4 @@ while run:
 	win.background(pgg.BLACK)
 	if win.isKeyDown("Escape"):
 		run = False
+	trist.tristan()
